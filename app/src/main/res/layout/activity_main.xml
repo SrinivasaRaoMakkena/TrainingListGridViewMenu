@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#100f0f"
+    tools:context="com.example.srinivas.listviewwithbaseadapter.MainActivity">
+
+    <ListView
+        android:id="@+id/listOfSocialMedia"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:elevation="5dp"
+        android:background="#fdfafa"
+
+       ></ListView>
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:elevation="5dp"
+        android:background="#fdfafa"
+        android:numColumns="2"
+        ></GridView>
+
+</RelativeLayout>
