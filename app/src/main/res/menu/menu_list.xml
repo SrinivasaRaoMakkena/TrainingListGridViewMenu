@@ -3,14 +3,20 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item android:id="@+id/listV"
-        android:title="LIST VIEW"
         android:icon="@drawable/list"
-        app:showAsAction="ifRoom"
+        app:showAsAction="ifRoom|withText"
+        android:title="LIST"
 
         />
     <item android:id="@+id/gridV"
-        android:title="GRID VIEW"
         android:icon="@drawable/grid"
-        app:showAsAction="ifRoom"
+        app:showAsAction="never"
+        android:title="GRID"
         />
+    <item android:id="@+id/gridVa"
+        android:icon="@drawable/grid"
+        app:showAsAction="never"
+        android:title="GRIiD"
+        />
+
 </menu>
